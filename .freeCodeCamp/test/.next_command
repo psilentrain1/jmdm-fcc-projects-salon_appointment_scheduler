@@ -69,3 +69,5 @@ __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 clear
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+touch salon.sh
+chmod +x salon.sh
