@@ -71,3 +71,35 @@ clear
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 touch salon.sh
 chmod +x salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+touch dbSave.sh
+cat "#! /bin/bash" >> dbSave.sh
+echo "#! /bin/bash" >> dbSave.sh
+echo "pg_dump -cC --inserts -U freecodecamp salon > salon.sql" >> dbSave.sh
+chmod +x dbSave.sh
+./dbSave.sh
+touch dbLoad.sh
+echo "#! /bin/bash" > dbLoad.sh
+chmod +x dbLoad.sh
+echo "echo $(psql -U postgres < salon.sql)" >> dbLoad.sh
+clear
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./salon.sh
+./dbSave.sh
+./salon.sh
